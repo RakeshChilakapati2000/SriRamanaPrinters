@@ -1,0 +1,45 @@
+.SignIn {
+  margin-right: 10px;
+}
+
+.LogIn {
+  margin-right: 10px;
+}
+
+body {
+  background-image: url(Machine.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  /* width: 100%;
+  height: auto; */
+}
+/*
+.Welcome {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.395);
+  text-shadow: 4px 3px 7px blue, 2px 2px 2px #8383c8;
+  font-size: 300%;
+  scroll-behavior: smooth;
+} */
+
+h1 {
+  color: rgba(224, 255, 255, 0.847);
+  text-align: justify;
+  margin-top: 200px;
+  font-weight: 700;
+  font-size: 80px;
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
+  text-shadow: 3px 5px 20px rgb(169, 58, 58), 10px 7px 7px rgb(118, 100, 177);
+}
+
+.Welcome1 {
+  font-size: 130px;
+  color: rgb(250, 252, 250);
+}
+
+.Ramana {
+  text-shadow: 3px 5px 30px rgb(57, 11, 11), 10px 7px 7px rgb(31, 207, 101);
+}

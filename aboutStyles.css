@@ -1,0 +1,15 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+.table {
+  border: 1px solid black;
+}
+
+.SignIn {
+  margin-right: 10px;
+}
+
+.LogIn {
+  margin-right: 10px;
+}

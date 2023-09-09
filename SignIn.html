@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="SignInStyles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="logo-black.png"
+            alt="SRI RAMANA PRINTERS"
+            width="70"
+            height="70"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html" target="_blank"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html" target="_blank"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html" target="_blank">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pricing.html" target="_blank"
+                >Pricing</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="nav-buttons">
+          <a href="SignIn.html" target="_blank"
+            ><button type="button" class="btn btn-success SignIn">
+              SignIn
+            </button></a
+          >
+          <a href="LogIn.html" target="_blank"
+            ><button type="button" class="btn btn-success LogIn">
+              LogIn
+            </button></a
+          >
+        </div>
+      </div>
+    </nav>
+    <br />
+    <div class="container">
+      <h1>SignIn</h1>
+      <form action="#">
+        <div class="input-group mb-3">
+          <label for="FirstName"
+            >*First Name:
+            <input
+              name="First Name"
+              required
+              class="form-control"
+              placeholder="FirstName"
+              type="text"
+            />
+          </label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="LastName"
+            >*Last Name:
+            <input
+              name="Last Name"
+              class="form-control"
+              placeholder="LastName"
+              type="text"
+              required
+            />
+          </label>
+        </div>
+        <div class="input-group mb-3">
+          <label for="PhoneNumber"
+            >*Phone Number:
+            <input
+              name="Phone Number"
+              class="form-control"
+              placeholder="PhoneNumber"
+              type="tel"
+              required
+            />
+          </label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="ConsumerNumber"
+            >*Consumer Number:
+            <input
+              name="Consumer Number"
+              class="form-control"
+              placeholder="ConsumerNumber"
+              type="number"
+              required
+            />
+          </label>
+        </div>
+        <div class="input-group mb-3">
+          <label for="BillNumber"
+            >*Bill Number:
+            <input
+              name="Bill Number"
+              class="form-control"
+              placeholder="BillNumber"
+              type="number"
+              required
+            />
+          </label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="Email ID"
+            >*EmailID
+            <input
+              name="EmailID"
+              type="email"
+              class="form-control"
+              placeholder="EmailID"
+              aria-label="EmailID"
+              aria-describedby="basic-addon1"
+              required
+            />
+          </label>
+        </div>
+        <div class="input-group mb-3">
+          <label for="password"
+            >*Password:
+            <input
+              name="Password"
+              class="form-control"
+              placeholder="Password"
+              type="password"
+              required
+            />
+          </label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="ConfirmPassword"
+            >*Confirm Password:
+            <input
+              name="Confirm Password"
+              class="form-control"
+              placeholder="ConfirmPassword"
+              type="password"
+              required
+            />
+          </label>
+        </div>
+        <div>
+          <label for="UserId"
+            >*UserId:
+            <input
+              name="UserID"
+              type="text"
+              placeholder="UserId"
+              class="form-control"
+              required
+            />
+          </label>
+        </div>
+        <br />
+        <div>
+          <button class="btn btn-primary">
+            <input type="reset" value="Reset" class="form-control" />
+          </button>
+          <a href="Registration.html" target="blank">
+            <button class="btn btn-primary">Submit</button></a
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
